@@ -5,7 +5,7 @@ int main()
     float t2;
     scanf("%f",&t2);
     t1=t2*100;
-    min=t1%100;
+    min=t1%60;
     hour=t2;
     if(hour>=0&&hour<=11)
     {
